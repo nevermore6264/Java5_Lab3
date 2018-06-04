@@ -21,15 +21,15 @@ public class StudentController {
         model.addAttribute("student", student);
         return "/student4";//Tên trang .jsp
     }
-
-    // Bài 3
-    @ModelAttribute("majors")
-    public Map<String, String> getMajors() {
-        Map<String, String> majors = new HashMap<>();
-        majors.put("UD", "Ứng dụng phần mềm");
-        majors.put("WEB", "Thiết kế trang web");
-        return majors;
-    }
+//
+//    // Bài 3
+//    @ModelAttribute("majors")
+//    public Map<String, String> getMajors() {
+//        Map<String, String> majors = new HashMap<>();
+//        majors.put("UD", "Ứng dụng phần mềm");
+//        majors.put("WEB", "Thiết kế trang web");
+//        return majors;
+//    }
 
 
     //Bài 4
